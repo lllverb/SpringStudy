@@ -1,0 +1,351 @@
+!SESSION 2020-03-16 16:42:44.648 -----------------------------------------------
+eclipse.buildId=4.5.1.202001211336-RELEASE
+java.version=13.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/lllverb/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data /Users/lllverb/SpringStudy -product org.springframework.boot.ide.branding.sts4 -keyring /Users/lllverb/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-16 16:42:47.810
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-03-16 16:42:48.896
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-16 16:42:48.896
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@462b239f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1fa29b9e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-16 16:42:48.896
+!MESSAGE A conflict occurred for COMMAND+SHIFT+-:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,Toggle Split Editor,
+		Split or join the currently active editor.,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d5e051e,
+		[Parameter(Splitter.isHorizontal,Orientation,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,Toggle Split Editor,
+		Split or join the currently active editor.,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d5e051e,
+		[Parameter(Splitter.isHorizontal,Orientation,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-03-16 16:43:02.782
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-03-16 16:46:18.432 -----------------------------------------------
+eclipse.buildId=4.5.1.202001211336-RELEASE
+java.version=13.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/lllverb/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/lllverb/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-16 16:46:21.906
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-03-16 16:46:23.008
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-16 16:46:23.008
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47eff554,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@56ec6ac0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-16 16:46:23.008
+!MESSAGE A conflict occurred for COMMAND+SHIFT+-:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,Toggle Split Editor,
+		Split or join the currently active editor.,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54b35809,
+		[Parameter(Splitter.isHorizontal,Orientation,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,Toggle Split Editor,
+		Split or join the currently active editor.,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54b35809,
+		[Parameter(Splitter.isHorizontal,Orientation,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-03-16 16:46:35.829
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-03-16 16:46:36.966 -----------------------------------------------
+eclipse.buildId=4.5.1.202001211336-RELEASE
+java.version=13.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/lllverb/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data /Users/lllverb/SpringStudy -product org.springframework.boot.ide.branding.sts4 -keyring /Users/lllverb/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-16 16:46:39.688
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-03-16 16:46:40.590
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-16 16:46:40.590
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c7a06ec,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@697b48e4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-16 16:46:40.590
+!MESSAGE A conflict occurred for COMMAND+SHIFT+-:
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,Toggle Split Editor,
+		Split or join the currently active editor.,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@137d04d8,
+		[Parameter(Splitter.isHorizontal,Orientation,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,ja,,system)
+Binding(COMMAND+SHIFT+-,
+	ParameterizedCommand(Command(org.eclipse.ui.window.splitEditor,Toggle Split Editor,
+		Split or join the currently active editor.,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@137d04d8,
+		[Parameter(Splitter.isHorizontal,Orientation,null,false)],,true),[org.eclipse.core.commands.Parameterization@6102fa90]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-03-16 16:47:59.583
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:21.149
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:21.150
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@627dfd9f[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=625)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:21.151
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:21.175
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:22.886
+!MESSAGE Boot LS startup time from start to initialized: 1727ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:22.916
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.prRtpKSKisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:22.918
+!MESSAGE subscribing to classpath changes: sts4.classpath.prRtpKSK isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:22.919
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:22.921
+!MESSAGE subsribers = {sts4.classpath.prRtpKSK=Send Classpath Notifications(130)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:22.921
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:22.921
+!MESSAGE project hajiboot-layering ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:22.922
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:22.922
+!MESSAGE Preparing classpath changed notification hajiboot-layering
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:22.922
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.prRtpKSK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:22.922
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:22.925
+!MESSAGE classpath=53 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:22.925
+!MESSAGE buffering callback sts4.classpath.prRtpKSK hajiboot-layering false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:22.926
+!MESSAGE executing callback sts4.classpath.prRtpKSK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 16:48:22.950
+!MESSAGE executing callback sts4.classpath.prRtpKSK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.564
+!MESSAGE Preparing classpath changed notification hajiboot-jdbc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.564
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.565
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.565
+!MESSAGE buffering callback sts4.classpath.prRtpKSK hajiboot-jdbc false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.566
+!MESSAGE executing callback sts4.classpath.prRtpKSK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.569
+!MESSAGE executing callback sts4.classpath.prRtpKSK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.654
+!MESSAGE Preparing classpath changed notification hajiboot-jdbc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.654
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.656
+!MESSAGE classpath=58 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.657
+!MESSAGE buffering callback sts4.classpath.prRtpKSK hajiboot-jdbc false 58
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.657
+!MESSAGE executing callback sts4.classpath.prRtpKSK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.661
+!MESSAGE executing callback sts4.classpath.prRtpKSK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.749
+!MESSAGE Preparing classpath changed notification hajiboot-jdbc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.749
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.750
+!MESSAGE classpath=59 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.751
+!MESSAGE buffering callback sts4.classpath.prRtpKSK hajiboot-jdbc false 59
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.751
+!MESSAGE executing callback sts4.classpath.prRtpKSK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.756
+!MESSAGE executing callback sts4.classpath.prRtpKSK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.795
+!MESSAGE Preparing classpath changed notification hajiboot-jdbc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.795
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.797
+!MESSAGE classpath=60 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.798
+!MESSAGE buffering callback sts4.classpath.prRtpKSK hajiboot-jdbc false 60
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.798
+!MESSAGE executing callback sts4.classpath.prRtpKSK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.801
+!MESSAGE executing callback sts4.classpath.prRtpKSK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.843
+!MESSAGE Preparing classpath changed notification hajiboot-jdbc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.844
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.845
+!MESSAGE classpath=59 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.845
+!MESSAGE buffering callback sts4.classpath.prRtpKSK hajiboot-jdbc false 59
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.846
+!MESSAGE executing callback sts4.classpath.prRtpKSK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.849
+!MESSAGE executing callback sts4.classpath.prRtpKSK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.893
+!MESSAGE Preparing classpath changed notification hajiboot-jdbc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.893
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.895
+!MESSAGE classpath=58 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.895
+!MESSAGE buffering callback sts4.classpath.prRtpKSK hajiboot-jdbc false 58
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.896
+!MESSAGE executing callback sts4.classpath.prRtpKSK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:39.899
+!MESSAGE executing callback sts4.classpath.prRtpKSK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:47.929
+!MESSAGE Preparing classpath changed notification hajiboot-jdbc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:47.930
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:47.931
+!MESSAGE classpath=58 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:47.932
+!MESSAGE buffering callback sts4.classpath.prRtpKSK hajiboot-jdbc false 58
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:47.932
+!MESSAGE executing callback sts4.classpath.prRtpKSK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:06:47.935
+!MESSAGE executing callback sts4.classpath.prRtpKSK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:07:11.008
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.prRtpKSK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:07:11.009
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.prRtpKSK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:07:11.009
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 17:07:11.009
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.prRtpKSK => OK
