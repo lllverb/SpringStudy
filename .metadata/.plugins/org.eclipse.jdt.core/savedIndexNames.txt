@@ -1,9 +1,0 @@
-INDEX VERSION 1.131+/Users/lllverb/SpringStudy/.metadata/.plugins/org.eclipse.jdt.core
-970574364.index
-3422510448.index
-4104852432.index
-1805854338.index
-3552762522.index
-576758667.index
-95597500.index
-3307505644.index

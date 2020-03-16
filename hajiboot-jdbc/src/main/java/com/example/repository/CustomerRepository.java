@@ -24,7 +24,7 @@ public class CustomerRepository {
 		String lastName = rs.getString("last_name");
 		return new Customer(id, firstName, lastName);
 	};
-	public List<Customer> findall(){
+	public List<Customer> findAll(){
 		List<Customer> customers = jdbcTemplate.query("SELECT id, first_name, last_name FROMcustomers ORDER BY id", customerRowMapper);
 		return customers;
 	}
