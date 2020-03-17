@@ -1,6 +1,7 @@
 package com.example.web;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.example.domain.Customer;
 import com.example.service.CustomerService;
@@ -42,6 +44,30 @@ public class CustomerController {
 		Customer customer = new Customer();
 		BeanUtils.copyProperties(form, customer);
 		customerService.create(customer);
+		return "redirect:/customers";
+	}
+
+	@GetMapping(path = "edit", params = "form")
+	String editForm(@RequestParam Integer id, CustomerForm form) {
+		Optional<Customer> customer = customerService.findById(id);
+		BeanUtils.copyProperties(customer, form);
+		return "customers/edit";
+	}
+
+	@PostMapping(path = "edit")
+	String edit(@RequestParam Integer id, @Validated CustomerForm form, BindingResult result) {
+		if(result.hasErrors()) {
+			return editForm(id, form);
+		}
+		Customer customer = new Customer();
+		BeanUtils.copyProperties(form, customer);
+		customer.setId(id);
+		customerService.update(customer);
+		return "redirect:/customers";
+	}
+
+	@PostMapping(path = "edit", params = "goToTop")
+	String goToTop() {
 		return "redirect:/customers";
 	}
 }
