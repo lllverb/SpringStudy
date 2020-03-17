@@ -9,5 +9,4 @@ public class HajibootThymeleafApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(HajibootThymeleafApplication.class, args);
 	}
-
 }
