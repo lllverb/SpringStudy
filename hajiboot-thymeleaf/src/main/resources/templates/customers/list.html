@@ -3,11 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <title>顧客一覧</title>
-<link rel="stylesheet" type="text/css" href"../../static/css/style.css" th:href="@{/css/style.css}">
+<link rel="stylesheet" type="text/css"
+	href"../../static/css/style.css" th:href="@{/css/style.css}">
 </head>
 <body>
+	<h1>顧客管理システム</h1>
+	<form th:action="@{/logout}" method="post">
+		<input type="submit" value="ログアウト">
+	</form>
 	<div>
-		<form th:action="@{/customers/create}" th:object="${customerForm}" method="post">
+		<form th:action="@{/customers/create}" th:object="${customerForm}"
+			method="post">
 			<dl>
 				<dt>
 					<label for="lastName">姓</label>
@@ -33,14 +39,22 @@
 	</div>
 	<hr>
 	<table>
+		<tr>
+			<th>ID</th>
+			<th>姓</th>
+			<th>名</th>
+			<th>担当者</th>
+			<th>編集</th>
+		</tr>
 		<tr th:each="customer : ${customers}">
 			<td th:text="${customer.id}">100</td>
 			<td th:text="${customer.lastName}">山田</td>
 			<td th:text="${customer.firstName}">太郎</td>
+			<td th:text="${customer.user.username}">duke</td>
 			<td>
 				<form th:action="@{/customers/edit}" method="get">
-					<input type="submit" name="form" value="編集" />
-					<input type="hidden" name="id" th:value="${customer.id}" />
+					<input type="submit" name="form" value="編集" /> <input
+						type="hidden" name="id" th:value="${customer.id}" />
 				</form>
 			</td>
 			<td>
