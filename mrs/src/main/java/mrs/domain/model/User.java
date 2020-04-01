@@ -28,6 +28,14 @@ public class User implements Serializable {
 		this.userId = userId;
 	}
 
+	public String getPassword() {
+		return this.password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
 	public String getFirstName() {
 		return this.firstName;
 	}
@@ -51,4 +59,5 @@ public class User implements Serializable {
 	public void setRoleName(RoleName roleName) {
 		this.roleName = roleName;
 	}
+
 }

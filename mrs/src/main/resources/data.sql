@@ -35,6 +35,7 @@ insert into reservable_room (reserved_date, room_id) values (current_date + 1, 7
 insert into reservable_room (reserved_date, room_id) values (current_date - 1, 7);
 
 insert into usr (user_id, first_name, last_name, password, role_name) values('taro-yamada', '太郎', '山田', 'password', 'USER');
-insert into usr (user_id, first_name, last_name, password, role_name) values('aaaa', 'Aa', 'aA', 'passworda', 'USER');
+--認証確認用のテストユーザー(password = demo)
+insert into usr (user_id, first_name, last_name, password, role_name) values('aaaa', 'Aa', 'aA', '$2a$10$oxSJl.keBwxmsMLkcT9lPeAIxfNTPNQxpeywMrF7A3kVszwUTqfTK', 'USER');
 insert into usr (user_id, first_name, last_name, password, role_name) values('bbbb', 'Bb', 'bB', 'passwordb', 'USER');
 insert into usr (user_id, first_name, last_name, password, role_name) values('cccc', 'Cc', 'cC', 'passwordc', 'ADMIN');
